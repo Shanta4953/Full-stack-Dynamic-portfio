@@ -110,17 +110,7 @@
       <img src="https://via.placeholder.com/150" alt="Profile Picture" />
     </div>
   </section>
-
-  <script>
-   
-    const tags = document.querySelector(".nav-links").children;
-    for (let i = 0; i < tags.length; i++) {
-      tags[i].addEventListener("click", function(event) {
-        alert(event.target.innerText);
-      });
-    }
-    
-  </script>
+  
 </body>
 </html>
 
